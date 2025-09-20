@@ -95,7 +95,7 @@
         appBar: AppBar(
           backgroundColor: cons.Princ,
           title: const Text(
-            'Buscaminas',
+            'Buscaminas >> Por: Ricardo Adair Vidal Araujo',
             style: TextStyle(color: cons.Fondo),
           ),
           actions: [

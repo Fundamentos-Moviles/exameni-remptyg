@@ -15,3 +15,9 @@ Y por último un 10% si se hace dinámico, es decir, reiniciar el juego a travé
 Nota: Agregar su nombre completo visible en la vista, de lo contrario no se tomará en cuenta su examen.
 
 Pueden usar List.generate para crear los recuerdos o crearlos cada uno de los recuerdos como lo vimos en clases
+
+
+    Nota extra: aparece otro colaborador pero es porque al inicio usaba firebase con otra cuenta de github
+    cuando empece a usar mi visualcode (porque arregle flutter) tengo puesta mi otra cuenta de github y olvide 
+    que no son la misma que ya estaba usando ya que una es para el trabajo y el otro para la escuela pero 
+    ambas de rempty son mias, perdon :p
