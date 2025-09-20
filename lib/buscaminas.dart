@@ -130,14 +130,14 @@
                   var carta = cartas[filaIndex][colIndex];
                   var cont = cuentaBombas(filaIndex, colIndex);
                   return SizedBox(
+                    // El sized box aqui me funciona como el contenedor con tamaños especificos
+                    // En este caso controlar el tamaño de los botones ya que en mi laptop
+                    // las medidas de las tarjetas originales se ve demasiado grande
                     width: 80,
                     height: 80,
                     child: Card(
                       color: carta.clicked ? carta.bomba ? cons.NotAp : cons.Aprov : cons.tarjeta,
-                      child: AspectRatio(
-                        // Es 1 para tener cuadrados que me gustan mas 
-                        // que los rectangulos de las fotos del profe
-                        aspectRatio: 1.0,
+                      child: Center(
                         child: InkWell(
                           onTap: carta.clicked
                               ? null : () { // Si ya esta clickeada no hacer nada
